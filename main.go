@@ -18,13 +18,13 @@ var thisNamespace string
 var thisPod string
 
 // PublicIPv4Annotation is the name of the annotation to be used when marking a Pod with its Public IPv4 address
-const PublicIPv4Annotation = "annotation.network.cycore.io/public_ipv4"
+const PublicIPv4Annotation = "netdiscover.cycore.io/public_ipv4"
 
 // PublicIPv6Annotation is the name of the annotation to be used when marking a Pod with its Public IPv6 address
-const PublicIPv6Annotation = "annotation.network.cycore.io/public_ipv6"
+const PublicIPv6Annotation = "netdiscover.cycore.io/public_ipv6"
 
 // PublicHostnameAnnotation is the name of the annotation to be used when marking a Pod with its Public Hostname
-const PublicHostnameAnnotation = "annotation.network.cycore.io/public_hostname"
+const PublicHostnameAnnotation = "netdiscover.cycore.io/public_hostname"
 
 func main() {
 	ctx := context.Background()
