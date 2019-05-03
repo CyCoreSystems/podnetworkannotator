@@ -32,5 +32,3 @@ dockers:
         - "v{{ .Major }}"
         - "v{{ .Major }}.{{ .Minor }}"
         - latest
-     extra_files:
-        - 'core/'
